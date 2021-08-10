@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-
+/*C++ program that calculates Delta - Wye and Wye - Delta Transforms
+*/
 int main()
 {
     string operation, operation2;
