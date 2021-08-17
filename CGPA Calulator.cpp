@@ -42,6 +42,8 @@ int main()
         i = i + cumm;
         j = j + 1;
     }
+    cout.setf(ios:: fixed || ios :: showpoint);
+    cout.precision(2);
     cout << "THE SEMESTER GRADE POINT AVERAGE FOR "<< name << " is " << i/denom << endl;
     return 0;
 }
