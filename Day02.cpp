@@ -19,8 +19,6 @@ int main()
     cin >> secondi;
     intdivi = firsti/secondi;
     moddivi = firsti%secondi;
-    cout.setf(ios:: fixed || ios:: showpoint);
-    cout.precision(4);
     cout << " The integer division of the two numbers is " << intdivi << " and the modulus division is " << moddivi << endl;
 
 
