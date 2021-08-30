@@ -14,7 +14,7 @@ int main()
 {
     char again = 'Y';
     float a, b, c, denominator, to_be_square_rooted, numerator_1, numerator_2;
-    while(again == 'Y' || again == 'y' )
+    do
     {
         get_coefficient(&a, &b, &c);
         denominator = 2*a;
@@ -26,6 +26,7 @@ int main()
         cout << "Do you want to perform this operation again? (Y/N)? " << endl;
         cin >> again;
     }
+    while(again == 'Y' || again == 'y' );
     return 0;
     cout << "Thank You! " << endl;
 }
