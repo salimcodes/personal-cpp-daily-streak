@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 
-/*.
+//Code to print the multiplication table for numbers 1 to 12
 
-*/
 int main()
 {
     int i;
