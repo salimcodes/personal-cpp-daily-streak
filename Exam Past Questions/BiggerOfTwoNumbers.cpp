@@ -12,12 +12,12 @@ For example, if the user puts in 19 and 2, FindTheBigOne will return 19. If the 
 numbers are the same, it will send back either one. Incorporate a loop in the main
 function so that the user can keep entering two values as long as he or she desires
 */
-void GetTwoNumbers(int *, int *);
+void GetTwoNumbers(int *, int *);      // Function Prototypes
 int FindBigOne(int, int);
 
 int main()
 {
-   int num1, num2, bigger_num;
+   int num1, num2, bigger_num;      //Declaring Variables
    GetTwoNumbers(&num1, &num2);
    bigger_num = FindBigOne(num1, num2);
    cout << "The bigger number is: " << bigger_num <<endl;
