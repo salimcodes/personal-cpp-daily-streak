@@ -14,7 +14,7 @@ where pi is 3.14159265, r is the radius, and h is the height.
 
 */
 
-void AskRandHCyl(double *, double *);
+void AskRandHCyl(double *, double *);  //Using pointers. Hence, call by reference
 double CalcVolAndSA(double, double);
 int main()
 {
