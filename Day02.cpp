@@ -18,8 +18,8 @@ int main()
     cout << "Input the second integer" << endl;
     cin >> secondi;
     intdivi = firsti/secondi;
-    moddivi = firsti%secondi;
-    cout << " The integer division of the two numbers is " << intdivi << " and the modulus division is " << moddivi << endl;
+    moddivi = firsti%secondi;  //Using the modulus division 
+    cout << " \n The integer division of the two numbers is " << intdivi << " and the modulus division is " << moddivi << endl;
 
 
 }
