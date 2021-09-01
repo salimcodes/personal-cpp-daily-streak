@@ -33,9 +33,9 @@ int main()
 void AskRandHCyl(double *r, double *h)
 {
     double radius, height;
-    cout << "Enter the radius of the cylinder: " << endl;
+    cout << "\n Enter the radius of the cylinder: " << endl;
     cin >> radius;
-    cout << "Enter the height of the cylinder: " << endl;
+    cout << "\n Enter the height of the cylinder: " << endl;
     cin >> height;
     *r = radius;
     *h = height;
