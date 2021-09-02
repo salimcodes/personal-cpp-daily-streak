@@ -10,15 +10,25 @@ int main()
     Next, perform the division and modulus operations on user’s two integer. Write the two values and four operation
     results to the screen. Use four decimal places of precision for the floating point
     values. Include descriptive comments.*/
-    int firsti, secondi, intdivi, moddivi;
+
+    int firsti, secondi, intdivi, moddivi;  //Initializing variables
+
     cout << "The program objective is to demonstrate the difference between integer division and modulus division" << endl;
+    
     cout << "You will be required to input two integer values" << endl;
+    
     cout << "Input the first integer - the larger number" << endl;
+    
     cin >> firsti;
+    
     cout << "Input the second integer" << endl;
+    
     cin >> secondi;
+    
     intdivi = firsti/secondi;
+    
     moddivi = firsti%secondi;  //Using the modulus division 
+    
     cout << " \n The integer division of the two numbers is " << intdivi << " and the modulus division is " << moddivi << endl;
 
 

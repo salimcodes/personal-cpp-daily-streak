@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <cmath> //Importing math library for calculations
 using namespace std;
 
 /*

@@ -53,6 +53,9 @@ TotalArea = EstimateLessWallSpace + (length * width);
     // Adding the area of the ceiling to be painted
     PaintNeed = TotalArea / gallonpsquare;
 
+cout.setf(ios::fixed);
+cout.precision(2);  //Printing answers in two decimal places.
+
 cout << "The total square footage of painted area is " << TotalArea <<
     " square feet." << endl;
 
