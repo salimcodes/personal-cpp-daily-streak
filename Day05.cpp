@@ -10,7 +10,10 @@ int main()
     cout << "[a  b  c]" << endl;
     cout << "[d  e  f]" << endl;
     cout << "[g  h  i]" << endl;
-    double a,b,c,d,e,f,g,h,i, determinant;
+    double a,b,c,d,e,f,g,h,i, determinant; 
+
+    // Getting Inputs from Users
+
     cout << "Input Value of a" << endl;
     cin >> a;
     cout << "Input Value of b" << endl;
@@ -29,6 +32,8 @@ int main()
     cin >> h;
     cout << "Input Value of i" << endl;
     cin >> i;
+
+    // Evaluating Determinant from inputs
     determinant = ((a*e*i)-(a*f*h)-(b*d*i)+(b*f*g)+(c*d*h)-(c*e*g));
     cout << "The Determinant is Given as " << determinant << endl;
 

@@ -14,12 +14,12 @@ value.
 
 int main()
 {
-    float a, area;
+    float a, area;  // Initializing Variables
+    float constant = 4.828; //Declaring constant
     cout << "Input the size of the octagon (side) in millimetres: " << endl;
-    float constant = 4.828;
     cin >> a;
     area = constant*pow(a, 2);
-    cout <<"The area of the octagon is " << area << " squared millimetre." <<endl;
-
+    
+    cout <<"The area of the octagon is " << area << " squared millimetres." <<endl;
 }
 

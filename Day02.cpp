@@ -13,7 +13,7 @@ int main()
 
     int firsti, secondi, intdivi, moddivi;  //Initializing variables
 
-    cout << "The program objective is to demonstrate the difference between integer division and modulus division" << endl;
+    cout << "The program's objective is to demonstrate the difference between integer division and modulus division" << endl;
     
     cout << "You will be required to input two integer values" << endl;
     
@@ -25,7 +25,7 @@ int main()
     
     cin >> secondi;
     
-    intdivi = firsti/secondi;
+    intdivi = firsti/secondi; //Evaluating integer division
     
     moddivi = firsti%secondi;  //Using the modulus division 
     

@@ -56,14 +56,14 @@ TotalArea = EstimateLessWallSpace + (length * width);
 cout.setf(ios::fixed);
 cout.precision(2);  //Printing answers in two decimal places.
 
-cout << "The total square footage of painted area is " << TotalArea <<
+cout << endl <<"The total square footage of painted area is " << TotalArea <<
     " square feet." << endl;
 
 cout << "The exact amount of paint needed is " << PaintNeed << " gallons."
     << endl;
 
 cout << "The whole gallons of paint needed is " << ceil (PaintNeed) <<
-    " gallons." << endl;
+    " gallons." << endl; // The ceil function is used to round up.
 
 cout << "The dimensions of the room is " << round (length) << " feet by "
     << round (width) << " feet by " << round (height) << " feet." << endl;
