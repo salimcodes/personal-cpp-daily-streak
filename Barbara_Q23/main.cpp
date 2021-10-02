@@ -6,14 +6,14 @@ using namespace std;
 Write a complete C++ program that has a main function, an
 AskForTwoNumbers function, and a FindBigOne function. The main calls the
 AskForTwoNumbers function, which asks the user for two integers. These two
-integers are “returned” to main, and are then sent to FindBigOne. It returns
+integers are ï¿½returnedï¿½ to main, and are then sent to FindBigOne. It returns
 the larger value to main. For example, if the user puts in 19 and 2,FindBigOne
 will return 19. If the two numbers are the same, it will send back either one.
 
 */
-
-void AskForTwoNumbers(int*, int*);
-int FindBigOne(int, int);
+// Declaring functions
+void AskForTwoNumbers(int*, int*); // Using pointers to declare variable
+int FindBigOne(int, int); 
 int main()
 {
     int f_num, s_num, bigger_num;
