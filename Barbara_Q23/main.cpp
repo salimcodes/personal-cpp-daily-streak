@@ -23,10 +23,11 @@ int main()
     return 0;
 }
 
+//The function that asks for the two numbers to be comapred from the User
 void AskForTwoNumbers(int *num1, int *num2)
 {
     int f_num, s_num;
-    cout << "Enter the first number: " << endl;
+    cout << "Enter the first number: " << endl; 
     cin >> f_num;
     cout << "Enter the second number: " << endl;
     cin >> s_num;
@@ -35,6 +36,7 @@ void AskForTwoNumbers(int *num1, int *num2)
     *num2 = s_num;
 }
 
+// The function that returns the bigger number using comparators
 int FindBigOne(int x, int y)
 {
     int a, b;
