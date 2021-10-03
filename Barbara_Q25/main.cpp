@@ -43,7 +43,7 @@ void AskRandHCyl(double *r, double *h)
 
 double CalcVolAndSA(double r, double h)//, double *SA, double *Volume)
 {
-    const double pi = 3.14159265;
+    const double pi = 3.14159265; //setting the constant pi
     double rad, hei, surface_area, vol, volume;
     surface_area = 2* pi * rad * hei;
     volume = 3.14159265 * pow(rad, 2) * hei;
