@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Written by Salim O. Oyinlola
 /*
 Write a complete C++ program that asks the user to enter a date in the
 month/day/year format, such as 4/25/2007. Check to ensure that the date is
